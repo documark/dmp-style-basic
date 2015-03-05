@@ -2,7 +2,13 @@ var resolve = require('path').resolve;
 var file    = resolve(__dirname, 'assets', 'style.css');
 
 module.exports = function dmpStyleBasic ($, document, done) {
-	$.root().append('<link rel="stylesheet" type="text/css" href="file://' + file + '"/>');
+	var $container = $('head');
+	
+	if ( ! $container.length) {
+		$container = $.root();
+	}
+
+	$container.prepend('<link rel="stylesheet" type="text/css" href="file://' + file + '"/>');
 
 	done();
 };
