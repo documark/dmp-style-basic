@@ -1,0 +1,228 @@
+/* http://meyerweb.com/eric/tools/css/reset/ | v2.0b1 | 201101 */   
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+
+option {
+  display: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 125%;
+}
+h1 {
+  font-size: 25px;
+  margin: 40px 0 20px;
+  color: #000;
+}
+h2 {
+  font-size: 20px;
+  margin: 30px 0 20px;
+  color: #000;
+}
+h3 {
+  font-size: 17px;
+  margin: 20px 0;
+  color: #000;
+}
+h4,
+h5 {
+  font-weight: bold;
+}
+h5 {
+  font-style: italic;
+}
+p {
+  margin: 20px 0;
+}
+img {
+  max-width: 100%;
+}
+.pull-left {
+  float: left;
+}
+.pull-right {
+  float: right;
+}
+strong,
+.bold {
+  font-weight: bold;
+}
+i,
+em,
+.italic {
+  font-style: italic;
+}
+u,
+.underline {
+  text-decoration: underline;
+}
+.page-break {
+  page-break-before: always;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#meta #wrapper {
+  height: 50px;
+}
+#meta header,
+#meta footer {
+  display: block;
+  width: 100%;
+}
+#meta footer {
+  position: absolute;
+  bottom: 0;
+}
+cover {
+  position: relative;
+  display: block;
+  height: 62.42em;
+}
+cover h1 {
+  margin: 0;
+  font-size: 50px;
+  padding: 100px 0;
+}
+cover h2 {
+  margin: 40px 0;
+  font-size: 30px;
+  color: #333;
+}
+cover h3 {
+  font-size: 14px;
+}
+cover h1,
+cover h2,
+cover h3 {
+  text-align: right;
+}
+cover .footer {
+  position: absolute;
+  bottom: 0;
+}
+cover .footer p span {
+  display: inline-block;
+  width: 100px;
+}
+cover .footer p:last-child {
+  margin-bottom: 0;
+}
+chapter table-of-contents ul {
+  margin: 0;
+  list-style-type: none;
+}
+chapter table-of-contents ul li {
+  padding: 0;
+}
+chapter table-of-contents ul li span.chapter-title {
+  display: inline-block;
+  padding: 0 0 6px;
+}
+chapter table-of-contents ul li span.page-number {
+  float: right;
+}
+chapter table-of-contents ul.index-1 > li {
+  padding: 0 0 18px;
+  page-break-inside: avoid;
+}
+chapter table-of-contents ul.index-1 > li > span.chapter-title,
+chapter table-of-contents ul.index-1 > li > span.page-number {
+  font-weight: bold;
+}
+chapter table-of-contents ul.index-3 {
+  font-style: italic;
+}
+chapter {
+  display: block;
+  page-break-before: always;
+}
+chapter > h1 {
+  padding: 80px 0 20px;
+}
+chapter a,
+chapter a:link,
+chapter a:active {
+  text-decoration: none;
+  color: #1486b3;
+}
+chapter a:hover,
+chapter a:visited {
+  text-decoration: none;
+  color: #117298;
+}
+chapter ul,
+chapter ol {
+  margin: 20px 0 20px 25px;
+}
+chapter ul li,
+chapter ol li {
+  padding-bottom: 10px;
+}
+chapter ul {
+  list-style: disc;
+}
+chapter ol {
+  list-style: decimal;
+}
+chapter table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  margin: 20px 0;
+  border-spacing: 0;
+  border: 1px solid #ddd !important;
+}
+chapter table th {
+  text-align: left;
+  font-weight: bold;
+}
+chapter table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #ddd !important;
+  white-space: nowrap;
+}
+chapter table th,
+chapter table td {
+  padding: 8px !important;
+  vertical-align: top;
+}
+chapter table td {
+  border-top: 1px solid #ddd !important;
+}
+chapter table tbody tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+chapter table tbody td:nth-child(1):nth-last-child(2) {
+  width: 33%;
+}
+chapter code {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0.1em 0;
+  border-radius: 3px;
+  font-family: Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 85%;
+  background-color: #f2f2f2;
+  white-space: pre-wrap;
+}
+chapter code:before,
+chapter code:after {
+  letter-spacing: -0.2em;
+  content: '\00a0';
+}
+chapter pre > code {
+  display: block;
+  max-width: 100%;
+  padding: 12px 15px;
+  border-radius: 5px;
+}
+chapter pre > code:before,
+chapter pre > code:after {
+  content: none;
+}
+

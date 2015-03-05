@@ -1,0 +1,29 @@
+{
+  "name": "dmp-style-basic",
+  "version": "0.1.0",
+  "description": "Documark plugin for adding basic styling to your document.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mauvm/dmp-style-basic.git"
+  },
+  "scripts": {
+     "prepublish": "npm run compile",
+     "compile": "./node_modules/.bin/stylus --out assets/ --include src/ --include-css < src/style.styl > assets/style.css"
+  },
+  "keywords": [
+    "documark",
+    "documark-style",
+    "documark-plugin",
+    "standard"
+  ],
+  "author": "Maurits van Mastrigt <maurits@nerdieworks.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mauvm/dmp-style-basic/issues"
+  },
+  "homepage": "https://github.com/mauvm/dmp-style-basic",
+  "devDependencies": {
+    "stylus": "^0.50.0"
+  }
+}
