@@ -1,6 +1,6 @@
 {
   "name": "dmp-style-basic",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Documark plugin for adding basic styling to your document.",
   "main": "index.js",
   "repository": {
