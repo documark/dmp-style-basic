@@ -6,35 +6,35 @@ option {
   display: none;
 }
 body {
+  color: #333;
   font-family: Arial, sans-serif;
   font-size: 14px;
-  color: #333;
   line-height: 125%;
 }
 h1 {
-  font-size: 25px;
   margin: 40px 0 20px;
   color: #000;
+  font-size: 25px;
 }
 h2 {
-  font-size: 20px;
   margin: 30px 0 20px;
   color: #000;
+  font-size: 20px;
 }
 h3 {
-  font-size: 17px;
-  margin: 20px 0;
+  margin: 20px 0 0;
   color: #000;
+  font-size: 14px;
+  font-weight: bold;
 }
 h4,
 h5 {
-  font-weight: bold;
-}
-h5 {
+  margin-bottom: 0;
   font-style: italic;
+  font-weight: normal;
 }
 p {
-  margin: 20px 0;
+  margin: 0 0 20px;
 }
 img {
   max-width: 100%;
@@ -57,6 +57,9 @@ em,
 u,
 .underline {
   text-decoration: underline;
+}
+.text-center {
+  text-align: center;
 }
 .page-break {
   page-break-before: always;
@@ -130,8 +133,7 @@ chapter table-of-contents ul.index-1 > li {
   padding: 0 0 18px;
   page-break-inside: avoid;
 }
-chapter table-of-contents ul.index-1 > li > span.chapter-title,
-chapter table-of-contents ul.index-1 > li > span.page-number {
+chapter table-of-contents ul.index-1 > li > a.chapter-link {
   font-weight: bold;
 }
 chapter table-of-contents ul.index-3 {
@@ -146,22 +148,27 @@ chapter > h1 {
 }
 chapter a,
 chapter a:link,
-chapter a:active {
-  text-decoration: none;
-  color: #1486b3;
-}
+chapter a:active,
 chapter a:hover,
 chapter a:visited {
+  color: #333;
   text-decoration: none;
-  color: #117298;
 }
 chapter ul,
 chapter ol {
-  margin: 20px 0 20px 25px;
+  margin: 20px 0 20px 30px;
 }
 chapter ul li,
 chapter ol li {
   padding-bottom: 10px;
+}
+chapter ul li p,
+chapter ol li p {
+  margin: 0 0 10px;
+}
+chapter ul li:last-child,
+chapter ol li:last-child {
+  padding-bottom: 0;
 }
 chapter ul {
   list-style: disc;
@@ -199,6 +206,13 @@ chapter table tbody tr:nth-child(odd) {
 }
 chapter table tbody td:nth-child(1):nth-last-child(2) {
   width: 33%;
+}
+chapter table.table-condensed {
+  font-size: 90%;
+}
+chapter table.table-condensed th,
+chapter table.table-condensed td {
+  padding: 4px 6px !important;
 }
 chapter code {
   display: inline-block;
