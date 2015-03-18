@@ -1,7 +1,7 @@
 # Documark Style Basic
 
 [![npm version](https://badge.fury.io/js/dmp-style-basic.svg)](http://badge.fury.io/js/dmp-style-basic)
-[![dependency status](https://david-dm.org/mauvm/dmp-style-basic.svg)](https://david-dm.org/mauvm)
+[![dependency status](https://david-dm.org/documark/dmp-style-basic.svg)](https://david-dm.org/documark/dmp-style-basic)
 
 > Documark plugin for adding basic styling to your document.
 
