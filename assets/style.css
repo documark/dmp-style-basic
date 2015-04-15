@@ -136,7 +136,7 @@ chapter table-of-contents ul.index-1 > li {
   padding: 0 0 18px;
   page-break-inside: avoid;
 }
-chapter table-of-contents ul.index-1 > li > a.chapter-link {
+chapter table-of-contents ul.index-1 > li > a.chapter-link.has-number {
   font-weight: bold;
 }
 chapter table-of-contents ul.index-3 {
