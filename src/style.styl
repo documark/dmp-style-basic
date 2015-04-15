@@ -106,12 +106,15 @@ chapter table-of-contents
 		margin: 0
 		list-style-type: none
 		li
+			position: relative
 			padding: 0
 			span.chapter-title
-				display: inline-block
+				display: block
 				padding: 0 0 6px
 			span.page-number
-				float: right
+				position: absolute
+				top: 0
+				right: 0
 	ul.index-1 > li
 		padding: 0 0 18px
 		page-break-inside: avoid
