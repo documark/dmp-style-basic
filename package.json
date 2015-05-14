@@ -1,6 +1,6 @@
 {
   "name": "dmp-style-basic",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Documark plugin for adding basic styling to your document.",
   "main": "index.js",
   "repository": {
@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/documark/dmp-style-basic",
   "devDependencies": {
-    "stylus": "^0.50.0"
+    "stylus": "~0.51.1"
   }
 }
